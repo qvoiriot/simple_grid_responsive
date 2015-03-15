@@ -1,0 +1,113 @@
+/* GRID SYSTEM */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 95%;
+  color: #fff;
+}
+
+.row {
+  margin: 0 -10px;
+  margin-bottom: 20px;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
+[class*="col-"] {
+  padding: 20px;
+}
+
+@media all and ( min-width: 736px ) {
+
+  .col-2-3 {
+    float: left;
+    width: 66.66%;
+  }
+  .col-1-2 {
+    float: left;
+    width: 50%;
+  }
+  .col-1-3 {
+    float: left;
+    width: 33.33%;
+  }
+  .col-1-4 {
+    float: left;
+    width: 25%;
+  }
+  .col-1-5 {
+    float: left;
+    width: 20%;
+  }
+  .col-1-6 {
+    float: left;
+    width: 16.66%;
+  }
+  .col-1-8 {
+    float: left;
+    width: 12.5%;
+  }
+
+}
+/* END GRID */
+
+/* CSS FOR THE EXAMPLE */
+body{
+  background-color: #000;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+h1{
+  background: -webkit-linear-gradient(left, #F00D00,#0000FB,#F0A100,#F1F100,#1BF000,#9E00FA,#0BF0F1);
+	background: linear-gradient(left, #F00D00,#0000FB,#F0A100,#F1F100,#1BF000,#9E00FA,#0BF0F1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h5 {
+  padding: 4%;
+  margin: 0;
+  border: 4px dotted #fff;
+  text-transform: uppercase;
+}
+
+.light-blue {
+  border: 5px dotted #0BF0F1;
+}
+
+.blue {
+  border: 5px dotted #0000FB;
+}
+
+.orange {
+  border: 5px dotted #F0A100;
+}
+
+.yellow {
+  border: 5px dotted #F1F100;
+}
+
+.green {
+  border: 5px dotted #1BF000;
+}
+
+.purple {
+  border: 5px dotted #9E00FA;
+}
+
+.red {
+  border: 5px dotted #F00D00;
+}
