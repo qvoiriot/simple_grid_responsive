@@ -1,0 +1,52 @@
+/* CSS FOR THE EXAMPLE */
+body{
+  background-color: #000;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+h1{
+  background: -webkit-linear-gradient(left, #F00D00,#0000FB,#F0A100,#F1F100,#1BF000,#9E00FA,#0BF0F1);
+	background: linear-gradient(left, #F00D00,#0000FB,#F0A100,#F1F100,#1BF000,#9E00FA,#0BF0F1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h5 {
+  padding: 4%;
+  margin: 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.row{
+  padding-bottom: 30px;
+}
+
+.light-blue {
+  border: 5px dotted #0BF0F1;
+}
+
+.blue {
+  border: 5px dotted #0000FB;
+}
+
+.orange {
+  border: 5px dotted #F0A100;
+}
+
+.yellow {
+  border: 5px dotted #F1F100;
+}
+
+.green {
+  border: 5px dotted #1BF000;
+}
+
+.purple {
+  border: 5px dotted #9E00FA;
+}
+
+.red {
+  border: 5px dotted #F00D00;
+}
